@@ -21,7 +21,22 @@ def get_monthly_salary_data():
     print("Example: 4000\n")
 
     monthly_salary = input("Enter your salary this month here:\n")
-    print(f"Data provided is {monthly_salary}")
+    
+    salary_data = int(monthly_salary)
+
+
+def get_monthly_expenses_data():
+    """
+    Gets the monthly salary value of the user.
+    """
+    print("Please enter your total expenses this month.")
+    print("This should be a whole number value with no decimal point")
+    print("Example: 900\n")
+
+    monthly_expenses = input("Enter your total expenses this month here:\n")
+    
+    expenses_data = int(monthly_expenses)
 
 
 get_monthly_salary_data()
+get_monthly_expenses_data()
